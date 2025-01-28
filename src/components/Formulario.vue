@@ -13,10 +13,9 @@ const emits = defineEmits(['update:tarefaTemp', 'cadastrar-tarefa']);
           required
           type="text"
           placeholder="Digite a descrição da sua tarefa"
-          style="width: 100%; height: 40px;"
         />
       </div>
-      <div class="col-md-2 ">
+      <div class="col-md-2">
         <button type="submit" class="btn btn-primary button">Cadastrar</button>
       </div>
       <div class="col-md-2">
@@ -29,3 +28,38 @@ const emits = defineEmits(['update:tarefaTemp', 'cadastrar-tarefa']);
     </div>
   </form>
 </template>
+
+<style scoped>
+/* Estilo para telas maiores */
+.cadastro input {
+  width: 100%;
+  height: 40px;
+}
+
+.cadastro .button {
+  width: 100%;
+}
+
+/* Responsividade para telas menores (até 420px) */
+@media (max-width: 420px) {
+  .cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .cadastro input {
+    width: 100%;
+  }
+
+  .cadastro .button {
+    width: 100%;
+  }
+
+  .cadastro select {
+    width: 100%;
+  }
+}
+</style>
+
