@@ -1,0 +1,12 @@
+.bg-custom {
+    background-color:#2C3E50 ;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.gradient-text {
+    font-size: 3em;
+    background: linear-gradient(to right, #3498db, #9913d3); /* Gradiente de azul para roxo */
+    -webkit-background-clip: text;
+    color: transparent; /* Deixa o texto transparente, permitindo o gradiente aparecer */
+}
