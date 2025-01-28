@@ -10,3 +10,17 @@
     -webkit-background-clip: text;
     color: transparent; /* Deixa o texto transparente, permitindo o gradiente aparecer */
 }
+
+.button{
+    width: 100%;
+}
+
+input{
+    border-radius: 4px;
+    border: none;
+}
+
+.cadastro{
+    display: flex;
+    align-items: flex-stretch;
+}
